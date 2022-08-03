@@ -26,7 +26,7 @@ console.log(fiestaB);
 
 ///// modelo Antigo ou maior
 
-export class Carro2 {
+export class Carro2 { // se for usar o atalho tem q usar o plublic, private ou protected
     public readonly modelo: string;
     public readonly ano: number;
         constructor(modelo: string, ano: number){
