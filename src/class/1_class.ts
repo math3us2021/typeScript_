@@ -1,4 +1,10 @@
 //// Class modelo abreviado, não utilizando o this
+//Public é acessado por todos os elementos da classe
+//Private é acessado apenas por elementos da classe
+//Protected é acessado por elementos da classe e por elementos filhos
+//
+
+
 export class Carro {
      constructor(
         readonly modelo: string,
